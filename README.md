@@ -1,7 +1,8 @@
 # JQuery-ui-multidraggable-choose-group-Plugin
 
-You can download the [development version][max].
+You can download the [development version][max] or the [production version][min].
 [max]: https://github.com/Tchoupinax/JQuery-ui-multidraggable-choose-group/blob/master/JQuery-ui-multidraggable-choose-group.js
+[min]: https://github.com/Tchoupinax/JQuery-ui-multidraggable-choose-group/blob/master/JQuery-ui-multidraggable-choose-group.min.js
 
 
 ## Getting Started
