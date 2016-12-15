@@ -28,7 +28,7 @@ Inpired by them :
             // Get position
             var pos = $(this).position();
             // For each, save positions
-            $.each(options.groupe || {}, function (key, value) {
+            $.each($(options.groupe) || {}, function (key, value) {
                 var elemPos = $(value).position();
                 options.initLeftOffset[key] = elemPos.left - pos.left;
                 options.initTopOffset[key] = elemPos.top - pos.top;
@@ -41,7 +41,7 @@ Inpired by them :
             // Get position
             var pos = $(this).offset();
             // For each, update positions
-            $.each(options.groupe || {}, function (key, value) {
+            $.each($(options.groupe) || {}, function (key, value) {
                 $(value).offset({
                     left: pos.left + options.initLeftOffset[key],
                     top: pos.top + options.initTopOffset[key]
@@ -55,7 +55,7 @@ Inpired by them :
             // Get position
             var pos = $(this).offset();
             // For each, update positions
-            $.each(options.groupe || {}, function (key, value) {
+            $.each($(options.groupe) || {}, function (key, value) {
                 $(value).offset({
                     left: pos.left + options.initLeftOffset[key],
                     top: pos.top + options.initTopOffset[key]
